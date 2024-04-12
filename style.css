@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+    font-family: Kalam;
+    background-color: black;
+    color: white;
+    /* background: linear-gradient(49deg  , white , rgb(26, 15, 7)); */
+}
+h1{
+    /* font-size: large; */
+    /* width: 100vw; */
+    /* margin: auto; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 50vh;
+    margin : auto;
+}
+.wid{
+    width: 100%;
+    /* background-color: aqua; */
+}
+#display{
+    padding: 25px;
+    border: none;
+    color: white;
+
+    /* background-color: rgb(219, 214, 214); */
+    background: linear-gradient(180deg,rgba(213, 209, 209, 0.488) , rgba(131, 121, 121, 0.389));
+    font-weight: bolder;
+    font-size: larger;
+}
+.flex-cont{
+    /* width: 100%; */
+    display: flex;
+    justify-items:center;
+    /* gap: 1px; */
+    /* background-color: black; */
+    /* align-items: flex-end; */
+}
+.btn{
+    font-size: larger;
+    font-weight: bolder;
+    padding: 25px;
+    border: none;
+    margin: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 2px 2px 12px 2px rgb(152, 149, 149);
+}
+.btn:active{
+    background-color: black;
+    color: white;
+}
+/* */
